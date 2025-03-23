@@ -1,0 +1,103 @@
+
+.img {
+    max-width: 100%;
+  }
+
+.image-row {
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.card {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 5px 5px;
+    margin-bottom: 4em;
+  }
+
+.card-img-top {
+    max-width: 10em; 
+    max-height: 14em; 
+    border-radius: 10px;
+}
+
+.h2 {
+    font-family: "Lexend Exa", sans-serif;
+}
+
+.head2 {
+    font-family: "Playwrite AU SA", serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #7F055F;
+}
+
+.cartrow {
+    border-bottom: 12px;
+    border-color: #2e799b;
+}
+
+.title4 {
+    font-size: 20px;
+    font-family: "Lexend Exa", sans-serif;
+    color: #CC5803;
+}
+
+.price4 {
+    font-size: 18px;
+    font-family: "Lexend Exa", sans-serif;
+    color:#7F055F;
+    margin: 1px;
+}
+
+.cat4 {
+    font-size: 14px;
+    font-family: "Lexend Exa", sans-serif;
+    color:#2e799b;
+    margin: 1px;
+}
+
+.qty4 {
+    font-family: "Lexend Exa", sans-serif;
+    font-size: 16px;
+    color:#9d42af;
+    margin: 1px;
+}
+
+.btn {
+    width: 8em;
+    height: 30px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    padding: 3px 3px;
+    font-family: "Lexend Exa", sans-serif;
+}
+
+.total {
+    font-size: 24px;
+    font-family: "Lexend Exa", sans-serif;
+}
+
+.btn2 {
+    width: 18em;
+    height: 30px;
+    justify-items: right;
+    margin-bottom: 5px;
+    font-family: "Lexend Exa", sans-serif;
+    font-size: 14px;
+    color: #f2f2f2;
+    padding: 3px 3px;   
+    background-color: #CC5803;
+    border: none;
+  }
+
+  /* .li {
+    list-style-type: none;
+    padding-top: 8px;
+    
+} */

@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    padding: 10px;
+    background-color: #2e799b;
+    color: #ffffff;
+    justify-content: center;
+    font-family: "Lexend Exa", sans-serif;
+} 

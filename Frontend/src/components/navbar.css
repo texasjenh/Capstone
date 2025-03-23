@@ -1,0 +1,132 @@
+.navbar { 
+    display: flex; 
+    position: sticky;
+    background-color: #2e799b;
+    font-family: "Lexend Exa", sans-serif;
+    height: 6vh;
+}
+  
+.ulleft {
+    display: flex;
+    position: absolute;
+    color: #f2f2f2;
+    font-size: 20px;
+    align-items: center;
+    gap: 4px;
+}
+  
+.li {
+    list-style-type: none;
+    display: inline-block;   
+    padding-right: 1em;
+    padding-top: 8px;
+    align-items: center;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+  
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+  
+.search-input {
+    border-radius: 10px;
+    border: 2px solid #7F055F;
+    padding: 8px;
+    width: 100%;
+}
+  
+.glass {
+    position: absolute;
+    right: 10px; 
+    color: #6b6a6a;
+}
+  
+.ulright {
+    display: flex;
+    position: absolute;
+    right: 2em;
+    color: #f2f2f2;
+    font-size: 22px;
+    align-items: center;
+    margin-right: 1em;
+}
+  
+.fa-user {
+    margin-right: 1em;
+    color: #f2f2f2;
+}
+  
+.user {
+    padding: 2px;
+    margin-right: 1em;
+    background-color: #2e799b;
+    border: none;
+}
+  
+.dropdown {
+    position: absolute;
+    right: 1em;
+    margin-top: 1em;
+    width: 10rem;
+    font-size: 14px;
+    box-shadow: 4px 6px 4px 4px #2e799b;
+}
+  
+.uldrop {
+    text-align: left;
+    list-style-type: none;
+    padding: 2px;
+    color: #2e799b
+}
+
+.dropdown li {
+    padding: 2px 2px;
+}
+
+.fa-heart {
+    margin-right: 1em;
+    color: #f2f2f2;
+}
+
+.heart {
+    background: #2e799b;
+    border: none !important;
+    padding: 0;
+}
+  
+.fa-cart-shopping {
+    margin-right: 1em;
+    color: #f2f2f2;
+}
+  
+.cartCount {
+    color: #f2f2f2;
+    font-size: 18px;
+    position: absolute;
+    top: 6px; /* Adjust as needed */
+    right: 1px; /* Adjust as needed */
+}
+  
+.a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    color: #cc5803;  
+}
+    
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {
+      display: none;
+    }
+    .navbar a.icon {
+      float: left;
+      display: block;
+    }
+}

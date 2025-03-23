@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    position: relative;
+    min-height: 300px;
+    min-width: 100%;
+    justify-content: center;
+    background-image: url("images/bookshelf.jpg");
+  }
+  
+  .h1 {
+    font-family: "Playwrite AU SA", serif;
+    font-size: calc(3em + 1vw);
+    color: #ffffff;
+    display: flex;
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    animation-name: colorchange;
+    animation-duration: 8s;
+  }
+  
+  @keyframes colorchange {
+    0%   {color:#ffffff;}
+    25%  {color: #445E93;}
+    50%  {color:#cc5803;}
+    75%  {color: #9c68a7;}
+    100% {color:#ffffff}
+  }
+  

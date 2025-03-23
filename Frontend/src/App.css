@@ -1,0 +1,181 @@
+#root {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Subscribe Form style */
+.subscribe {
+  margin-right: 4px;
+}
+
+/* Page styles */
+.section {
+  margin-bottom: 3em;
+}
+
+.bannerImg {
+  margin-top: 8px;
+  width: 30em;
+}
+
+.head2 {
+  font-family: "Playwrite AU SA", serif;
+  font-size: 34px;
+  text-align: center;
+  color: #7F055F;
+  margin-top: 1em;
+  margin-bottom: 20px;  
+}
+
+.about {
+  text-align: center;
+  font-family: "Lexend Exa", sans-serif;
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: #CC5803;
+}
+
+.col-6 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.about2 {
+  text-align: center;
+  font-family: "Lexend Exa", sans-serif;
+  margin-bottom: 2em;
+  justify-content: center;
+  font-size: 18px;
+  color: #CC5803;
+}
+
+.submit {
+  background-color:#CC5803;
+  color: #ffffff;
+  border-color: #7F055F;
+  justify-content: center;
+  font-size: 18px;
+  margin-bottom: 5em;
+}
+
+.label {
+  text-align: center;
+  font-family: "Lexend Exa", sans-serif;
+  margin-bottom: 2em;
+  justify-content: center;
+}
+
+.email {
+  text-align: center;
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 20px;
+  margin-bottom: 2em;
+  justify-content: center;
+}
+
+.address {
+  font-family: "Lexend Exa", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+.cart {
+  margin-bottom: 24em;
+  color: #7F055F;
+}
+
+.section {
+  margin-bottom: 3em;
+}
+
+.drop {
+  position: absolute;
+  right: 1em;
+  margin-top: 1em;
+  width: 10rem;
+  font-size: 14px;
+  box-shadow: 4px 6px 4px 4px #2e799b;
+}
+
+/* AllBooks styles */
+.row no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.image-row {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.card-img-top {
+  width: 10em; 
+  height: 16em; 
+  border-radius: 14px;
+  margin: 10px 10px;
+}
+
+.card {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 5px 5px;
+  margin-bottom: 4em;
+}
+
+.btn {
+  width: 10em;
+  height: 30px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  padding: 3px 3px;
+}
+
+.h2 {
+  font-family: "Lexend Exa", sans-serif;
+}
+
+.head3a {
+  font-family: "Lexend Exa", sans-serif;
+  text-align: center;
+  color: #CC5803;
+}
+
+.head3b {
+  font-family: "Lexend Exa", sans-serif;
+  text-align: center;
+  color:#Fa3943;
+}
+
+.head3c {
+  font-family: "Lexend Exa", sans-serif;
+  text-align: center;
+  color:#9d42af;
+}
+
+.head3d {
+  font-family: "Lexend Exa", sans-serif;
+  text-align: center;
+  color:#7F055F;
+}
+
+.about404 {
+  margin-bottom: 24em;
+  font-size: 20px;
+  font-family: "Lexend Exa", sans-serif;
+  color: #CC5803;
+}
+
+.MySwiper {
+  width: 75%;
+}
+
+
